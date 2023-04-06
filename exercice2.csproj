@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <SignAssembly>False</SignAssembly>
+    <Company>Patrice Andre Waechter-Ebling (Étudiant)</Company>
+    <Copyright>Patrice Andre Waechter-Ebling (Étudiant)</Copyright>
+    <PackageIcon>logo progWeb.png</PackageIcon>
+    <PackageReleaseNotes>exercice de révison C# 5 avril 2023</PackageReleaseNotes>
+    <PackAsTool>True</PackAsTool>
+    <NeutralLanguage>fr-CA</NeutralLanguage>
+    <Title>Exercice 2</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Patrice\source\repos\exercice2\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\OneDrive - Cegep de Granby\Bureau\logo progWeb.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\Patrice\source\repos\exercice2\.editorconfig" />
+  </ItemGroup>
+
+</Project>
