@@ -88,17 +88,15 @@ namespace exercice2
 
         public Employe(int noEmploye, string nom, string adresse) 
         {
-            Service srv = new Service();
             this.NoEmploye=noEmploye;
+            Service srv = new Service();
             srv.SetNom(nom);
             srv.SetAdresse(adresse);
             this.Service=srv;
         }
         public Employe(string nom, string adresse)
         {
-            Service srv = new Service();
-            srv.SetNom(nom);
-            srv.SetAdresse(adresse);
+            Service srv = new Service(nom,adresse);
             this.Service=srv;
         }
     }
